@@ -4,6 +4,8 @@
 
 #Find the sum of all the multiples of 3 or 5 below 1000.
 
+#have a go ;)
+
 require_relative 'problem_1'
 
 describe 'Problem 1' do
