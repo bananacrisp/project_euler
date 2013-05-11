@@ -1,10 +1,13 @@
 project_euler
 =============
 
-Project Euler Code
+============= Project Euler Code =============
 
 Friday 10th of May @ Makers Academy
 
-http://projecteuler.net/
+Visit: http://projecteuler.net/
 
-Solve problems 1, 2, 3, and possibly 4
+Then try and solve problems 1, 2, 3, and possibly 4
+
+Some help:
+https://github.com/kiafaldorius/project_euler/tree/master/problems/1-10
