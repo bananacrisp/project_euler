@@ -49,6 +49,11 @@ end
 < ===== PROBLEM 3 ===== >
 "The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime factor of the number 600851475143 ? "
 
+Ok so a prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+Thoughts:
+sum += number.last if number % 2..(number-1) == 0}
+#need to iterate through the 2..(number-1) calculation
+
 < ===== PROBLEM 4 ===== >
 "A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 99.
 
