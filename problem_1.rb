@@ -10,10 +10,18 @@ def divisible_by_3_or_5?(number)
   number
 end
 
-def a_method(number)
-  if divisible_by_3?(number)
+def problem_one
+  (1..999).inject do |sum, n|
+  if n%3 == 0
     sum + n
+  else
+    if n%5 == 0
+      sum + n
+    else
+      sum + 0
+    end
   end
+end
 end
 
 
