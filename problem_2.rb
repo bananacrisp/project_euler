@@ -2,7 +2,7 @@ def problem_two
   abc = [0, 1, 2]
   sum = 2
   while
-  a_number.last < 4000000 do
+  abc8.last < 4000000 do
     abc << abc.last + abc[abc.length -2]
     #pipe the (last value of the abc array + the length of the abc array minus 2)
     sum += abc.last if abc.last %2 == 0
@@ -11,3 +11,16 @@ def problem_two
   sum
   #return the sum for the answer - although it only goes until the last number is lest than 4 million
 end
+
+def problem_two
+  abc = [0, 1, 2]
+  sum = 2
+  while
+  abc.last < 4000000 do
+    abc << abc.last + abc[abc.length -2]
+    sum += abc.last if abc.last%2 ==0
+    end
+  puts sum
+end
+
+Refine this one...!! Make it easier to read.
