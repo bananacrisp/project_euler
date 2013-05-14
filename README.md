@@ -29,6 +29,12 @@ In IRB this worked...
   end
 end
 
+And better version!!
+
+(1..999).inject do |sum, n|
+  sum + n if n%3 == 0 || n%5 == 0
+end
+
 ...but I cannot replicate in .rb with and the mind was not clear when trying to use rspec!
 
 < ===== PROBLEM 2 ===== >
