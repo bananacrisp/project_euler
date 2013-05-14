@@ -35,6 +35,11 @@ And better version!!
   sum + n if n%3 == 0 || n%5 == 0
 end
 
+or...shorten the block!!
+
+(1..999).inject{|sum, n|  sum + n if n%3 == 0 || n%5 == 0}
+
+
 ...but I cannot replicate in .rb with and the mind was not clear when trying to use rspec!
 
 < ===== PROBLEM 2 ===== >
